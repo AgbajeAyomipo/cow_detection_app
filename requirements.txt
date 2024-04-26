@@ -1,5 +1,4 @@
 opencv-python==4.8.0.74
-requests==2.31.0
 numpy==1.26.2
 PyQt5==5.15.9
 PySide2==5.15.2.1
