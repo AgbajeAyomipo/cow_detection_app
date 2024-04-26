@@ -1,0 +1,12 @@
+15/02/2024
+
+
+COW-APP FOLDER:
+CMD
+myenv\Scripts\activate
+python main.py
+
+
+RTSP CAMERA:
+
+rtsp://admin:1313Risco@@156.67.21.177:5554/1:80/1

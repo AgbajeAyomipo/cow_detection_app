@@ -1,0 +1,12 @@
+93.66.7.169
+user: cow
+password: cowadmin1234!
+SSH port: 2287
+
+smarcorottami.kseniadns.com
+admin
+admin
+
+205.134.240.132.1098
+administrator
+cowadmin1234!
