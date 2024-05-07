@@ -1,6 +1,6 @@
 # https://app.roboflow.com/fiverr-bvwjh/cow-detection-thxuy/
-from PySide2.QtWidgets import QApplication, QMainWindow, QInputDialog, QMessageBox
-from PySide2.QtGui import QImage, QPixmap
+from PyQt5.QtWidgets import QApplication, QMainWindow, QInputDialog, QMessageBox
+from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtCore import pyqtSignal, QThread, QTimer
 
 import sys
