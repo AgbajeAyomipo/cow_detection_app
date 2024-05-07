@@ -5,7 +5,7 @@ import os
 
 # Load the YOLOv8 model
 model = YOLO(f'resources/models/best.pt')
-# model.to('cuda')
+model.to('cuda')
 
 # Open the video file
 video_path = "rtsp://admin:1313Risco@@156.67.21.177:5554/cam/realmonitor?channel=1&subtype=1"
@@ -29,7 +29,7 @@ while cap.isOpened():
     try:
         # Run YOLOv8 inference on the frame
         start_time = time.time()
-        results = model(frame, device = 'cpu')
+        results = model(frame, device = '0')
         end_time = time.time()
 
         # Visualize the results on the frame
