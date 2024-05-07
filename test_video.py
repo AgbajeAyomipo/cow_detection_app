@@ -29,7 +29,7 @@ while cap.isOpened():
     try:
         # Run YOLOv8 inference on the frame
         start_time = time.time()
-        results = model(frame, device = '0')
+        results = model(frame, device = 'cpu')
         end_time = time.time()
 
         # Visualize the results on the frame
