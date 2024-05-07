@@ -4,8 +4,8 @@ import time
 import os
 
 # Load the YOLOv8 model
-model = YOLO(f'{os.getcwd()}/latest-code/Server/best.pt')
-# model.to('cuda')
+model = YOLO(f'resources/models/best.pt')
+model.to('cuda')
 
 # Open the video file
 video_path = "rtsp://admin:1313Risco@@156.67.21.177:5554/cam/realmonitor?channel=1&subtype=1"
